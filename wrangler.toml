@@ -1,0 +1,15 @@
+name = "study-arena"
+main = "worker.js"
+compatibility_date = "2025-08-01"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "study_arena"
+database_id = "9244e025-8f97-4f7e-994a-a49b02d9d8b1"
+
+[triggers]
+crons = ["30 20 * * *", "30 14 * * *", "*/5 * * * *"]
+
+[vars]
+BOT_USERNAME  = "Mikhailvsbot"
+APP_SHORT_NAME = "app"
